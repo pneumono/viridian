@@ -1,6 +1,5 @@
 # viridian
-----------
-This repository contains various scripts, hacky one-liners, and other miscellaneous stuff I've written to manage my servers under the viridian.io name. There is currently no setup script (as most of the scripts are synced between boxes using unison) nor will this function without a private key/cert at etc/viridian.[key|crt]. 
+This repository contains various scripts, hacky one-liners, and other miscellaneous stuff I've written to manage my servers under the viridian.io name. There is currently no setup script (as most of the scripts are synced between boxes using unison), and it probably doesn't make much sense to try and use this outside of the ecosystem of my servers (at least not until I rewrite most of it)
 
 Currently this repo contains:
 
@@ -12,7 +11,6 @@ Currently this repo contains:
  - a list of IPs banned by the viridian script above across all servers (need a better way to centralize that)
  - a custom bashrc that sets several shortcuts and environment variables, including my custom prompt
  - a list of hosts (obtained from the pritunl script) that is symlinked to /etc/vir-hosts so dnsmasq knows where everyone is
-
 
 Things upcoming, maybe:
 
