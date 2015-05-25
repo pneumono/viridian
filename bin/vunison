@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo Syncing phlox...
+/usr/bin/unison phlox
+echo Syncing raspberry...
+/usr/bin/unison raspberry
+echo Syncing zomp...
+/usr/bin/unison zomp
+echo Done.

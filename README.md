@@ -10,7 +10,6 @@ Currently this repo contains:
  - a script to sync the /viridian folder across all of my servers
  - a list of IPs banned by the viridian script above across all servers (need a better way to centralize that)
  - a custom bashrc that sets several shortcuts and environment variables, including my custom prompt
- - a list of hosts (obtained from the pritunl script) that is symlinked to /etc/vir-hosts so dnsmasq knows where everyone is
 
 Things upcoming, maybe:
 
